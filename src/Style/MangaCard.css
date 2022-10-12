@@ -1,0 +1,36 @@
+.main_card_container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    width: 15rem;
+    height: 28rem;
+    background-color: rgb(29, 29, 29);
+    border-radius: 4px;
+    margin: 10px;
+}
+.image img{
+    display: block;
+    width: 15rem;
+    height: 20rem;
+    transition: all .3s;
+}
+.name h3{
+    color: white;
+    font-size: 16px;
+}
+.button button{
+    width: 8rem;
+    height: 2rem;
+    font-size: 1rem;
+    font-family: 'Kanit', sans-serif;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.main_card_container:hover .image img{
+    width: 14rem;
+    height: 19rem;
+}

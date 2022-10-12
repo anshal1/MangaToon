@@ -1,0 +1,30 @@
+.main_side_container{
+    width: 15rem;
+    height: fit-content;
+    margin-top: 6rem;
+    background-color: transparent;
+    float: left;
+    clear: both;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-right: 2px solid white;
+}
+.providers h2{
+    color: white;
+    text-decoration: underline;
+    font-family: 'Kanit', sans-serif;
+}
+.provider_lists{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.provider_lists li{
+    color: white;
+    font-size: 1.2rem;
+    list-style-type: none;
+    margin: 30px 0px;
+    font-family: 'Kanit', sans-serif;
+    cursor: pointer;
+}
